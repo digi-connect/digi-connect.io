@@ -1,8 +1,8 @@
 jQuery(document).ready(function( $ ) {
  
- 
- 
-  console.log(1111);
+ $.getJSON('https://ipinfo.io', function(data){
+  console.log(data)
+ });
  
   // Back to top button
   $(window).scroll(function() {
